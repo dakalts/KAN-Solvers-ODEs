@@ -327,7 +327,7 @@ class RadialBasisFunction(nn.Module):
     def forward(self, x):
         return torch.exp(-((x[..., None] - self.grid) / self.denominator) ** 2)
 
-class FastKANLayer(nn.Module):
+class fastKANLayer(nn.Module):
     def __init__(
         self,
         input_dim: int,
@@ -396,7 +396,7 @@ class FastKANLayer(nn.Module):
         return x, y
 
 
-class FastKAN(nn.Module):
+class fastKAN(nn.Module):
     def __init__(
         self,
         layers_hidden: List[int],
@@ -410,7 +410,7 @@ class FastKAN(nn.Module):
     ) -> None:
         super().__init__()
         self.layers = nn.ModuleList([
-            FastKANLayer(
+            fastKANLayer(
                 in_dim, out_dim,
                 grid_min=grid_min,
                 grid_max=grid_max,
