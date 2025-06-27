@@ -15,7 +15,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 from IPython import get_ipython
 import time
-from models import MLP, effKAN, FastKAN
+from models import MLP, effKAN, fastKAN
 
 
 # Setup: Clear plots, GPU memory, set device and data type
@@ -53,7 +53,7 @@ train_loader = DataLoader(train_dataset, batch_size=batch_size, shuffle=True)
 
 # Instantiate models
 kan_model_1 = effKAN([1, 10, 10, 1], grid_size=5, spline_order=3)
-kan_model_2 = FastKAN([1, 10, 10, 1], use_layernorm=False)
+kan_model_2 = fastKAN([1, 10, 10, 1], use_layernorm=False)
 mlp_model = MLP([1, 10, 10, 1])
 
 # Set up optimizers
