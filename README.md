@@ -10,7 +10,7 @@ This project implements and compares three neural network architectures:
 
 The comparison is done in the context of solving a simple first-order ODE using Physics-Informed Neural Networks (PINNs).
 
-# We solve the differential equation:
+## We solve the differential equation:
 
 $$\frac{dx}{dt} =-x(t) + sin(t)\,, $$
 
