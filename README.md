@@ -33,11 +33,17 @@ This implemantation uses classes effKAN and fastKAN, taken from Efficient KAN re
 ## If you use this code, please cite:
 
 @misc{KaltsasKAN2025,
+
   author = {Kaltsas, D. A.},
+  
   title = {Comparison of Efficient KAN, Fast KAN, and MLP Models for Solving ODEs},
+  
   year = {2025},
+  
   publisher = {GitHub},
+  
   journal = {GitHub repository},
+  
   howpublished = {\url{https://github.com/dakalts/KAN-Solvers-ODEs}}
 }
 
