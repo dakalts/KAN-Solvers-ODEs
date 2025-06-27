@@ -21,7 +21,7 @@ The exact (analytic) solution is known and used as ground truth for evaluation:
 $$x(t)=0.5(sin⁡(t)−cos⁡(t))+1.5e^t$$
 
 
-# Requirements
+## Requirements
 - Python 3.8+
 - Pytorch
 - Matplotlib
@@ -30,5 +30,5 @@ $$x(t)=0.5(sin⁡(t)−cos⁡(t))+1.5e^t$$
 
 This implemantation uses classes effKAN and fastKAN, taken from Efficient KAN repo: https://github.com/Blealtan/efficient-kan and the Fast-KAN repo: https://github.com/ZiyaoLi/fast-kan
 
-# If you use this code, please cite:
+## If you use this code, please cite:
 
